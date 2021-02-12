@@ -3,6 +3,10 @@ output "s3_bucket_domain_name" {
   description = "S3 bucket domain name"
 }
 
+output "id" {
+  value = module.label.id
+}
+
 output "s3_bucket_id" {
   value       = aws_s3_bucket.default.id
   description = "S3 bucket ID"

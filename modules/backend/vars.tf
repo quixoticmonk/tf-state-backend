@@ -141,7 +141,7 @@ variable "terraform_backend_config_template_file" {
 
 variable "terraform_version" {
   type        = string
-  default     = "0.12.2"
+  default     = "0.14.3"
   description = "The minimum required terraform version"
 }
 
